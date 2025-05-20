@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>INTERPOL – Digitaler Shop</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #121212;
+      color: #ffffff;
+    }
+    header {
+      background-color: #1f1f1f;
+      padding: 30px;
+      text-align: center;
+      font-size: 32px;
+      font-weight: bold;
+      letter-spacing: 2px;
+      color: #4CAF50;
+    }
+    nav {
+      background-color: #2c2c2c;
+      text-align: center;
+      padding: 12px 0;
+    }
+    nav a {
+      color: #ffffff;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: bold;
+    }
+    .content {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+    }
+    .card {
+      background-color: #1e1e1e;
+      border-radius: 12px;
+      margin: 15px;
+      padding: 20px;
+      max-width: 300px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+      text-align: center;
+    }
+    .card img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .card h3 {
+      margin-top: 10px;
+    }
+    .card button {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  INTERPOL
+</header>
+
+<nav>
+  <a href="#">Startseite</a>
+  <a href="#dokumente">Dokumente</a>
+  <a href="#medien">Medien</a>
+  <a href="#code">Code</a>
+</nav>
+
+<div class="content">
+  <div class="card" id="dokumente">
+    <img src="https://via.placeholder.com/300x150.png?text=Anleitung" alt="Anleitung">
+    <h3>📘 Anleitung (DOCX)</h3>
+    <a href="downloads/anleitung.docx" download><button>Download</button></a>
+  </div>
+
+  <div class="card" id="dokumente">
+    <img src="https://via.placeholder.com/300x150.png?text=Infografik" alt="Infografik">
+    <h3>🖼️ Infografik (PNG)</h3>
+    <a href="downloads/infografik.png" download><button>Download</button></a>
+  </div>
+
+  <div class="card" id="medien">
+    <img src="https://via.placeholder.com/300x150.png?text=Musik" alt="Musik">
+    <h3>🎵 Musik-Loop (MP3)</h3>
+    <a href="downloads/musik_loop.mp3" download><button>Download</button></a>
+  </div>
+
+  <div class="card" id="medien">
+    <img src="https://via.placeholder.com/300x150.png?text=Video" alt="Video">
+    <h3>🎬 Motivationsvideo (MP4)</h3>
+    <a href="downloads/motivationsvideo.mp4" download><button>Download</button></a>
+  </div>
+
+  <div class="card" id="code">
+    <img src="https://via.placeholder.com/300x150.png?text=Code" alt="Code">
+    <h3>💻 Code-Snippet (Python)</h3>
+    <a href="downloads/code_snippet.py" download><button>Download</button></a>
+  </div>
+</div>
+
+</body>
+</html>
